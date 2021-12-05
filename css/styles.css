@@ -42,8 +42,15 @@ a{
 
 .bar-wall{
   position: relative;
-  width:max-content;
+  width: 100%;
   z-index: -1;
+}
+
+@media only screen and (max-width: 1000px) {
+  .bar-wall {
+    position:relative;
+    width: auto;
+  }
 }
 
 .neonText {
