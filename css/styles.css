@@ -42,7 +42,7 @@ a{
 
 .bar-wall{
   position: relative;
-  width: 100%;
+  width:max-content;
   z-index: -1;
 }
 
