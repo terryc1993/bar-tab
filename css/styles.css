@@ -1,0 +1,105 @@
+body{
+
+}
+
+h1{
+  flex-direction: row;
+  position: relative;
+  bottom: 30px;
+  margin-bottom: 20px;
+  padding: 10px 0 10px 0;
+  text-align: center;
+  font-family: 'Rock Salt', cursive;
+
+}
+
+h2{
+
+}
+
+h3{
+
+}
+
+p{
+
+}
+
+a{
+
+}
+
+.container-top{
+
+}
+
+.bar-img-container{
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bar-wall{
+  position: relative;
+  width: 100%;
+  z-index: -1;
+}
+
+.neonText {
+  animation: flicker 1.5s infinite alternate;
+  color: #fff;
+}
+
+h1 {
+  font-size: 4.2rem;
+}
+
+/* Flickering animation */
+@keyframes flicker {
+
+  0%, 18%, 22%, 25%, 53%, 57%, 100% {
+
+      text-shadow:
+      0 0 4px #fff,
+      0 0 11px #fff,
+      0 0 19px #fff,
+      0 0 40px blue,
+      0 0 80px blue,
+      0 0 90px blue,
+      0 0 100px blue,
+      0 0 150px blue;
+
+  }
+
+  20%, 24%, 55% {
+      text-shadow: none;
+  }
+}
+
+
+/* Additional styling */
+
+h2 {
+  flex-direction: row;
+ font-size: 1.8rem;
+ font-family: 'Montserrat', sans-serif;
+}
+.container {
+  padding-top: 80px;
+  margin-top: 0;
+  align-items: center;
+  height: 200px
+}
+
+body {
+  font-size: 18px;
+  font-family: "Helvetica Neue", sans-serif;
+  background-image:linear-gradient(to bottom, #444444, #222222);
+}
+
+h1, h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 400;
+}
